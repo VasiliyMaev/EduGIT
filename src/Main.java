@@ -6,5 +6,6 @@ public class Main {
         SalesManager sale = new SalesManager(new int[]{50000, 60000, 89000, 5670, 120000});
 
         System.out.println(sale.max());
+        System.out.println(sale.average());
     }
 }
